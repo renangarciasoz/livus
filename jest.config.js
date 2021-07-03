@@ -1,0 +1,46 @@
+module.exports = {
+  setupFilesAfterEnv: ['@testing-library/jest-dom', '<rootDir>/jest.setup.js'],
+  coverageThreshold: {
+    global: {
+      branches: 55,
+      functions: 55,
+      lines: 55,
+      statements: 55,
+    },
+  },
+  testRegex: '(?<!integ\\.)spec\\.ts(x)?$',
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  clearMocks: true,
+  coverageReporters: ['html'],
+  collectCoverage: true,
+  collectCoverageFrom: ['src/**/*.{ts,tsx,js,jsx}'],
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/cypress/'],
+  coveragePathIgnorePatterns: [
+    '<rootDir>/src/@fixtures/*',
+    '<rootDir>/src/@types/*',
+    '<rootDir>/src/constants/*',
+    '<rootDir>/src/configs/*',
+    '<rootDir>/src/pages/*',
+    '.mock.(ts|tsx)',
+    '.integ.spec.(ts|tsx)',
+  ],
+  transform: { '.(ts|tsx)$': 'ts-jest/dist' },
+  transformIgnorePatterns: ['node_modules', 'cypress'],
+  globals: {
+    'ts-jest': {
+      compact: false,
+      tsconfig: 'tsconfig.test.json',
+    },
+  },
+  moduleNameMapper: {
+    '^services(.*)$': '<rootDir>/src/services/$1',
+    '^@fixtures/(.*)$': '<rootDir>/src/@fixtures/$1',
+    '^@types/(.*)$': '<rootDir>/src/types/$1',
+    '^configs/(.*)$': '<rootDir>/src/configs/$1',
+    '^constants/(.*)$': '<rootDir>/src/constants/$1',
+    '^modules/(.*)$': '<rootDir>/src/modules/$1',
+    '^pages/(.*)$': '<rootDir>/src/pages/$1',
+    '^layouts(.*)$': '<rootDir>/src/layouts/$1',
+  },
+}
