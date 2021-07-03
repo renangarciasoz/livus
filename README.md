@@ -1,7 +1,6 @@
 <p align="center">
-  <a href="http://livus.vercel.app/" rel="noopener" target="_blank"><img src="https://uploads-ssl.webflow.com/5fd0edef097fd26388e43f14/60acea796ffa6e80b3bf46c1_Livus%20Logo%20Light.png" alt="LIVUS Logo" width="50px"></a></p>
+  <a href="http://livus.vercel.app/" rel="noopener" target="_blank"><img src="https://uploads-ssl.webflow.com/5fd0edef097fd26388e43f14/60acea796ffa6e80b3bf46c1_Livus%20Logo%20Light.png" alt="LIVUS Logo" width="100px"></a></p>
 </p>
-<h1 align="center">LIVUS</h1>
 
 ## Technologies
 
