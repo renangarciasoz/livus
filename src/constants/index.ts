@@ -1,3 +1,3 @@
 // Constants variables
 
-export {}
+export {};

@@ -15,6 +15,8 @@
     "cypress:run": "TZ=UTC cypress run"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "eslint-plugin-prettier": "^3.4.0",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"

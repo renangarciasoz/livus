@@ -21,7 +21,8 @@ module.exports = {
     '<rootDir>/src/@types/*',
     '<rootDir>/src/constants/*',
     '<rootDir>/src/configs/*',
-    '<rootDir>/src/pages/*',
+    '<rootDir>/src/pages/_app.tsx',
+    '<rootDir>/src/pages/_document.tsx',
     '.mock.(ts|tsx)',
     '.integ.spec.(ts|tsx)',
   ],
@@ -43,4 +44,4 @@ module.exports = {
     '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^layouts(.*)$': '<rootDir>/src/layouts/$1',
   },
-}
+};
