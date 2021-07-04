@@ -37,12 +37,16 @@ export const CreatorPageLayout = ({
             <Grid item xs={8} />
             <Grid item xs={1}>
               <Typography align="right">
-                <Link href="!#">Entrar</Link>
+                <Link href="!#" color="secondary">
+                  Entrar
+                </Link>
               </Typography>
             </Grid>
             <Grid item xs={2}>
               <Typography align="right">
-                <Link href="!#">Seja um Anfitrião</Link>
+                <Link href="!#" color="secondary">
+                  Seja um Anfitrião
+                </Link>
               </Typography>
             </Grid>
           </Grid>

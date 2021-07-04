@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core';
 
 export const useStyles = makeStyles(({ spacing }) => ({
   header: {
-    background: 'rgba(0,0,0,0.9)',
+    background: '#1A1A1A',
     padding: spacing(4, 0),
     color: 'white',
     position: 'sticky',
@@ -15,7 +15,7 @@ export const useStyles = makeStyles(({ spacing }) => ({
     height: 'calc(100vh - 80px)',
   },
   footer: {
-    background: 'rgba(0,0,0,0.04)',
+    background: '#F6F6F4',
     padding: spacing(8, 0),
   },
 }));
