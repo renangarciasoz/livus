@@ -28,7 +28,7 @@ export const CreatorPageLayout = ({
       </Head>
       <header className={classes.header}>
         <Container fixed>
-          <Grid container>
+          <Grid container alignItems="center">
             <Grid item xs={1}>
               <Link href="!#">
                 <Logo variant="secondary" />
@@ -66,12 +66,15 @@ export const CreatorPageLayout = ({
 
             <Grid item container xs={2}>
               <Grid item xs={12}>
-                <Typography>
+                <Typography
+                  variant="subtitle2"
+                  className={classes.footerLinkHeader}
+                >
                   <strong>Comunidade</strong>
                 </Typography>
               </Grid>
               <Grid item xs={12}>
-                <Typography>
+                <Typography variant="subtitle2" className={classes.footerLink}>
                   <Link href="!#">Creator Community</Link>
                 </Typography>
               </Grid>
@@ -79,17 +82,20 @@ export const CreatorPageLayout = ({
 
             <Grid item container xs={1}>
               <Grid item xs={12}>
-                <Typography>
+                <Typography
+                  variant="subtitle2"
+                  className={classes.footerLinkHeader}
+                >
                   <strong>Social</strong>
                 </Typography>
               </Grid>
               <Grid item xs={12}>
-                <Typography>
+                <Typography variant="subtitle2" className={classes.footerLink}>
                   <Link href="!#">Instagram</Link>
                 </Typography>
               </Grid>
               <Grid item xs={12}>
-                <Typography>
+                <Typography variant="subtitle2" className={classes.footerLink}>
                   <Link href="!#">Linkedin</Link>
                 </Typography>
               </Grid>
@@ -99,17 +105,20 @@ export const CreatorPageLayout = ({
 
             <Grid container item xs={1}>
               <Grid item xs={12}>
-                <Typography>
+                <Typography
+                  variant="subtitle2"
+                  className={classes.footerLinkHeader}
+                >
                   <strong>Empresa</strong>
                 </Typography>
               </Grid>
               <Grid item xs={12}>
-                <Typography>
+                <Typography variant="subtitle2" className={classes.footerLink}>
                   <Link href="!#">Sobre a Livus</Link>
                 </Typography>
               </Grid>
               <Grid item xs={12}>
-                <Typography>
+                <Typography variant="subtitle2" className={classes.footerLink}>
                   <Link href="!#">Vagas</Link>
                 </Typography>
               </Grid>
@@ -119,12 +128,15 @@ export const CreatorPageLayout = ({
 
             <Grid container item xs={1}>
               <Grid item xs={12}>
-                <Typography>
+                <Typography
+                  variant="subtitle2"
+                  className={classes.footerLinkHeader}
+                >
                   <strong>Ajudas</strong>
                 </Typography>
               </Grid>
               <Grid item xs={12}>
-                <Typography>
+                <Typography variant="subtitle2" className={classes.footerLink}>
                   <Link href="!#">Fale Conosco</Link>
                 </Typography>
               </Grid>
