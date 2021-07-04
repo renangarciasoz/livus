@@ -3,10 +3,10 @@ import { makeStyles } from '@material-ui/core';
 // TODO: Change header, main and footer to flex
 // TODO: Create color pallete to usage and change theme
 
-export const useStyles = makeStyles({
+export const useStyles = makeStyles(({ spacing }) => ({
   header: {
     background: 'rgba(0,0,0,0.9)',
-    padding: '30px 0',
+    padding: spacing(4, 0),
     color: 'white',
     position: 'sticky',
     top: 0,
@@ -16,6 +16,6 @@ export const useStyles = makeStyles({
   },
   footer: {
     background: 'rgba(0,0,0,0.04)',
-    padding: '60px 0',
+    padding: spacing(8, 0),
   },
-});
+}));

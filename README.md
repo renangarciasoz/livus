@@ -31,6 +31,7 @@ Here's a quick description of each layer that compose the application.
 ├── /modules            # Modules of application based on domains, all module should have a low coupling, all module should be a strong candidate to be extracted and become a micro-frontend on feature.
 ├── /pages              # Components that compose modules and layout with routes and application composition, this layer should not be extracted from the project.
 ├── /services           # Abstraction of API request and outside components, such as: Analytics, Feature flags and Browser storage management
+├── /ui                 # UI components for extract a core library
 ├── /**/**tests**       # All unit and integration tests
 ├── /**/**snapshots**.  # Snapshots files should have the same file's name and extension of the test but with a ".snap" on the end. Example: "login.test.ts.snap"
 ```

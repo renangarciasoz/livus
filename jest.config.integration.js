@@ -1,10 +1,10 @@
-import config from './jest.config'
+import config from './jest.config';
 
-config.testRegex = 'integ\\.spec\\.ts(x)?$'
+config.testRegex = 'integ\\.spec\\.ts(x)?$';
 config.coveragePathIgnorePatterns = [
   ...config.coveragePathIgnorePatterns,
   '.spec.ts|tsx',
-]
+];
 config.coverageThreshold = {
   global: {
     branches: 15,
@@ -12,6 +12,6 @@ config.coverageThreshold = {
     lines: 50,
     statements: 50,
   },
-}
-console.log('RUNNING INTEGRATION TESTS')
-module.exports = config
+};
+console.log('RUNNING INTEGRATION TESTS');
+module.exports = config;

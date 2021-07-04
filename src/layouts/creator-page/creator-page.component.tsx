@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import { Grid, Typography } from '@material-ui/core';
+import { Container, Grid, Typography, Link } from '@material-ui/core';
 import { useStyles } from './creator-page.styles';
+import { Logo } from 'ui/logo';
 
-// TODO: Should fix grid by figma
 // TODO: Extract texts to texts file and create looping for links.
 
 type Props = {
@@ -27,84 +27,107 @@ export const CreatorPageLayout = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={classes.header}>
-        <Grid container>
-          <Grid item xs={1} />
-          <Grid item xs={2}>
-            Logo
-          </Grid>
-          <Grid xs={6} />
-          <Grid container item xs={2}>
-            <Grid item xs={3}>
-              Entrar
+        <Container fixed>
+          <Grid container>
+            <Grid item xs={1}>
+              <Link href="!#">
+                <Logo variant="secondary" />
+              </Link>
             </Grid>
-            <Grid item xs={9}>
-              Seja um Anfitrião
+            <Grid item xs={8} />
+            <Grid item xs={1}>
+              <Typography align="right">
+                <Link href="!#">Entrar</Link>
+              </Typography>
+            </Grid>
+            <Grid item xs={2}>
+              <Typography align="right">
+                <Link href="!#">Seja um Anfitrião</Link>
+              </Typography>
             </Grid>
           </Grid>
-          <Grid xs={1} />
-        </Grid>
+        </Container>
       </header>
       <main className={classes.main}>{children}</main>
       <footer className={classes.footer}>
-        <Grid container>
-          <Grid item xs={1} />
+        <Container fixed>
+          <Grid container>
+            <Grid item xs={1}>
+              <Link href="!#">
+                <Logo />
+              </Link>
+            </Grid>
 
-          <Grid item xs={2}>
-            Logo
-          </Grid>
+            <Grid item xs={3} />
 
-          <Grid item xs={1} />
-
-          <Grid container xs={7}>
-            <Grid container item xs={6}>
-              <Grid item container xs={6}>
-                <Grid item xs={12}>
-                  <Typography>
-                    <strong>Comunidade</strong>
-                  </Typography>
-                </Grid>
-                <Grid item xs={12}>
-                  Creator Community
-                </Grid>
+            <Grid item container xs={2}>
+              <Grid item xs={12}>
+                <Typography>
+                  <strong>Comunidade</strong>
+                </Typography>
               </Grid>
-
-              <Grid item container xs={6}>
-                <Grid item xs={12}>
-                  <strong> Social</strong>
-                </Grid>
-                <Grid item xs={12}>
-                  Instagram
-                </Grid>
-                <Grid item xs={12}>
-                  Linkedin
-                </Grid>
+              <Grid item xs={12}>
+                <Typography>
+                  <Link href="!#">Creator Community</Link>
+                </Typography>
               </Grid>
             </Grid>
-            <Grid container item xs={6}>
-              <Grid container item xs={6}>
-                <Grid item xs={12}>
+
+            <Grid item container xs={1}>
+              <Grid item xs={12}>
+                <Typography>
+                  <strong>Social</strong>
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography>
+                  <Link href="!#">Instagram</Link>
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography>
+                  <Link href="!#">Linkedin</Link>
+                </Typography>
+              </Grid>
+            </Grid>
+
+            <Grid item xs={1} />
+
+            <Grid container item xs={1}>
+              <Grid item xs={12}>
+                <Typography>
                   <strong>Empresa</strong>
-                </Grid>
-                <Grid item xs={12}>
-                  Sobre a Livus
-                </Grid>
-                <Grid item xs={12}>
-                  Vagas
-                </Grid>
+                </Typography>
               </Grid>
+              <Grid item xs={12}>
+                <Typography>
+                  <Link href="!#">Sobre a Livus</Link>
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography>
+                  <Link href="!#">Vagas</Link>
+                </Typography>
+              </Grid>
+            </Grid>
 
-              <Grid container item xs={6}>
-                <Grid item xs={12}>
+            <Grid item xs={1} />
+
+            <Grid container item xs={1}>
+              <Grid item xs={12}>
+                <Typography>
                   <strong>Ajudas</strong>
-                </Grid>
-                <Grid item xs={12}>
-                  Fale Conosco
-                </Grid>
+                </Typography>
+              </Grid>
+              <Grid item xs={12}>
+                <Typography>
+                  <Link href="!#">Fale Conosco</Link>
+                </Typography>
               </Grid>
             </Grid>
           </Grid>
           <Grid item xs={1} />
-        </Grid>
+        </Container>
       </footer>
     </>
   );

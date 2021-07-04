@@ -42,5 +42,6 @@ module.exports = {
     '^modules/(.*)$': '<rootDir>/src/modules/$1',
     '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^layouts(.*)$': '<rootDir>/src/layouts/$1',
+    '^ui(.*)$': '<rootDir>/src/ui/$1',
   },
 };

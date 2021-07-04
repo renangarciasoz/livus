@@ -1,2 +1,2 @@
-global.window = {}
-global.window = global
+global.window = {};
+global.window = global;

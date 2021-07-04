@@ -21,6 +21,8 @@
       "constants/*": ["src/constants/*"],
       "configs": ["src/configs"],
       "configs/*": ["src/configs/*"],
+      "ui": ["src/ui"],
+      "ui/*": ["src/ui/*"],
       "wrappers": ["src/wrappers"],
       "wrappers/*": ["src/wrappers/*"]
     }
