@@ -1,6 +1,36 @@
-import { Typography, Grid, Container, Link } from '@material-ui/core';
+import {
+  Typography,
+  Grid,
+  Container,
+  Link,
+  TableContainer,
+  Table,
+  TableBody,
+  TableRow,
+  TableCell,
+  TableHead,
+} from '@material-ui/core';
+import Pagination from '@material-ui/lab/Pagination';
 import { CreatorPageLayout } from 'layouts';
 import React from 'react';
+
+const rows = [
+  {
+    name: 'Rodrigo Pereira',
+    data: '13/04/2021',
+    plan: 'Plano 1',
+  },
+  {
+    name: 'Rodrigo Pereira',
+    data: '13/04/2021',
+    plan: 'Plano 1',
+  },
+  {
+    name: 'Rodrigo Pereira',
+    data: '13/04/2021',
+    plan: 'Plano 1',
+  },
+];
 
 export default function CreatorPage(): React.ReactElement {
   return (
@@ -42,7 +72,9 @@ export default function CreatorPage(): React.ReactElement {
             </Grid>
           </Container>
         </div>
-        <div>
+        <div
+          style={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+        >
           <div
             style={{
               paddingTop: '34px',
@@ -65,11 +97,73 @@ export default function CreatorPage(): React.ReactElement {
               </Grid>
             </Container>
           </div>
-          <div>
-            <Container style={{ height: '100%' }}>
+          <div
+            style={{
+              height: '100%',
+              display: 'flex',
+              alignItems: 'center',
+            }}
+          >
+            <Container>
               <Grid container>
-                <Grid item xs={12} justify="center">
-                  <Typography variant="h1">Table</Typography>
+                <Grid
+                  item
+                  xs={12}
+                  justify="center"
+                  style={{ padding: '32px 0' }}
+                >
+                  <TableContainer>
+                    <Table>
+                      <TableHead>
+                        <TableRow>
+                          <TableCell />
+                          <TableCell />
+                          <TableCell />
+                        </TableRow>
+                      </TableHead>
+                      <TableBody>
+                        {rows.map((row) => (
+                          <TableRow key={row.name}>
+                            <TableCell>
+                              <Typography
+                                variant="h6"
+                                style={{ fontWeight: 400 }}
+                              >
+                                {row.name}
+                              </Typography>
+                            </TableCell>
+                            <TableCell>
+                              <Typography
+                                variant="h6"
+                                style={{ fontWeight: 400 }}
+                              >
+                                {row.data}
+                              </Typography>
+                            </TableCell>
+                            <TableCell>
+                              <Typography
+                                variant="h6"
+                                style={{ fontWeight: 400 }}
+                              >
+                                {row.plan}
+                              </Typography>
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                  </TableContainer>
+                  <Pagination
+                    hidePrevButton
+                    hideNextButton
+                    count={3}
+                    variant="outlined"
+                    style={{
+                      padding: '24px 0',
+                      display: 'flex',
+                      justifyContent: 'center',
+                    }}
+                  />
                 </Grid>
               </Grid>
             </Container>

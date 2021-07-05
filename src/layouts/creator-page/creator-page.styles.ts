@@ -11,9 +11,7 @@ export const useStyles = makeStyles(({ spacing }) => ({
     position: 'sticky',
     top: 0,
   },
-  main: {
-    height: 'calc(100vh - 80px)',
-  },
+  main: {},
   footer: {
     background: '#F6F6F4',
     padding: spacing(8, 0),
