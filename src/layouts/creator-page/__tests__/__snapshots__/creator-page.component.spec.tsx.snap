@@ -12,7 +12,7 @@ Object {
           class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
         >
           <div
-            class="MuiGrid-root MuiGrid-container"
+            class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
@@ -163,19 +163,19 @@ Object {
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
                 >
                   <strong>
                     Comunidade
                   </strong>
-                </p>
+                </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -183,7 +183,7 @@ Object {
                   >
                     Creator Community
                   </a>
-                </p>
+                </h6>
               </div>
             </div>
             <div
@@ -192,19 +192,19 @@ Object {
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
                 >
                   <strong>
                     Social
                   </strong>
-                </p>
+                </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -212,13 +212,13 @@ Object {
                   >
                     Instagram
                   </a>
-                </p>
+                </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -226,7 +226,7 @@ Object {
                   >
                     Linkedin
                   </a>
-                </p>
+                </h6>
               </div>
             </div>
             <div
@@ -238,19 +238,19 @@ Object {
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
                 >
                   <strong>
                     Empresa
                   </strong>
-                </p>
+                </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -258,13 +258,13 @@ Object {
                   >
                     Sobre a Livus
                   </a>
-                </p>
+                </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -272,7 +272,7 @@ Object {
                   >
                     Vagas
                   </a>
-                </p>
+                </h6>
               </div>
             </div>
             <div
@@ -284,19 +284,19 @@ Object {
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
                 >
                   <strong>
                     Ajudas
                   </strong>
-                </p>
+                </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
-                <p
-                  class="MuiTypography-root MuiTypography-body1"
+                <h6
+                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -304,7 +304,7 @@ Object {
                   >
                     Fale Conosco
                   </a>
-                </p>
+                </h6>
               </div>
             </div>
           </div>
@@ -323,7 +323,7 @@ Object {
         class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
       >
         <div
-          class="MuiGrid-root MuiGrid-container"
+          class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
         >
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
@@ -474,19 +474,19 @@ Object {
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
               >
                 <strong>
                   Comunidade
                 </strong>
-              </p>
+              </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -494,7 +494,7 @@ Object {
                 >
                   Creator Community
                 </a>
-              </p>
+              </h6>
             </div>
           </div>
           <div
@@ -503,19 +503,19 @@ Object {
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
               >
                 <strong>
                   Social
                 </strong>
-              </p>
+              </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -523,13 +523,13 @@ Object {
                 >
                   Instagram
                 </a>
-              </p>
+              </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -537,7 +537,7 @@ Object {
                 >
                   Linkedin
                 </a>
-              </p>
+              </h6>
             </div>
           </div>
           <div
@@ -549,19 +549,19 @@ Object {
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
               >
                 <strong>
                   Empresa
                 </strong>
-              </p>
+              </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -569,13 +569,13 @@ Object {
                 >
                   Sobre a Livus
                 </a>
-              </p>
+              </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -583,7 +583,7 @@ Object {
                 >
                   Vagas
                 </a>
-              </p>
+              </h6>
             </div>
           </div>
           <div
@@ -595,19 +595,19 @@ Object {
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
               >
                 <strong>
                   Ajudas
                 </strong>
-              </p>
+              </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
-              <p
-                class="MuiTypography-root MuiTypography-body1"
+              <h6
+                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -615,7 +615,7 @@ Object {
                 >
                   Fale Conosco
                 </a>
-              </p>
+              </h6>
             </div>
           </div>
         </div>
