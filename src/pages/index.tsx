@@ -44,6 +44,7 @@ export default function CreatorPage(): React.ReactElement {
             background:
               'url(https://i.redd.it/5ig2a804on731.png) center center no-repeat',
             backgroundSize: 'cover',
+            flex: 1,
           }}
         >
           <Container>
@@ -73,7 +74,12 @@ export default function CreatorPage(): React.ReactElement {
           </Container>
         </div>
         <div
-          style={{ height: '100%', display: 'flex', flexDirection: 'column' }}
+          style={{
+            height: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            flex: 1,
+          }}
         >
           <div
             style={{
@@ -86,12 +92,16 @@ export default function CreatorPage(): React.ReactElement {
               <Grid container>
                 <Grid item xs={2}>
                   <Typography variant="h5">
-                    <Link href="!#">Assinantes</Link>
+                    <strong>
+                      <Link href="!#">Assinantes</Link>
+                    </strong>
                   </Typography>
                 </Grid>
                 <Grid item xs={1}>
-                  <Typography variant="h5">
-                    <Link href="!#">Cursos</Link>
+                  <Typography variant="h5" style={{ opacity: 0.4 }}>
+                    <strong>
+                      <Link href="!#">Cursos</Link>
+                    </strong>
                   </Typography>
                 </Grid>
               </Grid>

@@ -11,7 +11,11 @@ export const useStyles = makeStyles(({ spacing }) => ({
     position: 'sticky',
     top: 0,
   },
-  main: {},
+  main: {
+    display: 'flex',
+    flexDirection: 'column',
+    height: 'calc(100vh - 97px)',
+  },
   footer: {
     background: '#F6F6F4',
     padding: spacing(8, 0),
