@@ -21,5 +21,6 @@ export const useStyles = makeStyles(({ spacing }) => ({
   },
   footerLink: {
     margin: spacing(0.5, 0),
+    fontWeight: 400,
   },
 }));

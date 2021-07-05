@@ -154,6 +154,7 @@ export default function CreatorPage(): React.ReactElement {
                     </Table>
                   </TableContainer>
                   <Pagination
+                    size="large"
                     hidePrevButton
                     hideNextButton
                     count={3}
