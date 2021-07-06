@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Subscribers 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="makeStyles-root-1"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-maxWidthLg"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+              style="padding: 32px 0px;"
+            >
+              <div
+                class="MuiTableContainer-root"
+              >
+                <table
+                  class="MuiTable-root"
+                >
+                  <thead
+                    class="MuiTableHead-root"
+                  >
+                    <tr
+                      class="MuiTableRow-root MuiTableRow-head"
+                    >
+                      <th
+                        class="MuiTableCell-root MuiTableCell-head"
+                        scope="col"
+                      />
+                      <th
+                        class="MuiTableCell-root MuiTableCell-head"
+                        scope="col"
+                      />
+                      <th
+                        class="MuiTableCell-root MuiTableCell-head"
+                        scope="col"
+                      />
+                    </tr>
+                  </thead>
+                  <tbody
+                    class="MuiTableBody-root"
+                  >
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Rodrigo Pereira 1
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          13/04/2021
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 1
+                        </h6>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Rodrigo Pereira 2
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          13/04/2021
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 1
+                        </h6>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Rodrigo Pereira 3
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          13/04/2021
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 1
+                        </h6>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <nav
+                aria-label="pagination navigation"
+                class="MuiPagination-root makeStyles-pagination-2"
+              >
+                <ul
+                  class="MuiPagination-ul"
+                >
+                  <li>
+                    <button
+                      aria-current="true"
+                      aria-label="page 1"
+                      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined Mui-selected MuiPaginationItem-sizeLarge"
+                      tabindex="0"
+                      type="button"
+                    >
+                      1
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      aria-label="Go to page 2"
+                      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge"
+                      tabindex="0"
+                      type="button"
+                    >
+                      2
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      aria-label="Go to page 3"
+                      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge"
+                      tabindex="0"
+                      type="button"
+                    >
+                      3
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </button>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="makeStyles-root-1"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-maxWidthLg"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+            style="padding: 32px 0px;"
+          >
+            <div
+              class="MuiTableContainer-root"
+            >
+              <table
+                class="MuiTable-root"
+              >
+                <thead
+                  class="MuiTableHead-root"
+                >
+                  <tr
+                    class="MuiTableRow-root MuiTableRow-head"
+                  >
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head"
+                      scope="col"
+                    />
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head"
+                      scope="col"
+                    />
+                    <th
+                      class="MuiTableCell-root MuiTableCell-head"
+                      scope="col"
+                    />
+                  </tr>
+                </thead>
+                <tbody
+                  class="MuiTableBody-root"
+                >
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Rodrigo Pereira 1
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        13/04/2021
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 1
+                      </h6>
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Rodrigo Pereira 2
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        13/04/2021
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 1
+                      </h6>
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Rodrigo Pereira 3
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        13/04/2021
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 1
+                      </h6>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <nav
+              aria-label="pagination navigation"
+              class="MuiPagination-root makeStyles-pagination-2"
+            >
+              <ul
+                class="MuiPagination-ul"
+              >
+                <li>
+                  <button
+                    aria-current="true"
+                    aria-label="page 1"
+                    class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined Mui-selected MuiPaginationItem-sizeLarge"
+                    tabindex="0"
+                    type="button"
+                  >
+                    1
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    aria-label="Go to page 2"
+                    class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge"
+                    tabindex="0"
+                    type="button"
+                  >
+                    2
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <button
+                    aria-label="Go to page 3"
+                    class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge"
+                    tabindex="0"
+                    type="button"
+                  >
+                    3
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

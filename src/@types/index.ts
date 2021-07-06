@@ -1,3 +1,1 @@
-// Types and interfaces of entities and methods
-
-export {};
+export * from './subscriber';
