@@ -46,110 +46,7 @@ Object {
                   </thead>
                   <tbody
                     class="MuiTableBody-root"
-                  >
-                    <tr
-                      class="MuiTableRow-root"
-                    >
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          Rodrigo Pereira 1
-                        </h6>
-                      </td>
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          13/04/2021
-                        </h6>
-                      </td>
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          Plano 1
-                        </h6>
-                      </td>
-                    </tr>
-                    <tr
-                      class="MuiTableRow-root"
-                    >
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          Rodrigo Pereira 2
-                        </h6>
-                      </td>
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          13/04/2021
-                        </h6>
-                      </td>
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          Plano 1
-                        </h6>
-                      </td>
-                    </tr>
-                    <tr
-                      class="MuiTableRow-root"
-                    >
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          Rodrigo Pereira 3
-                        </h6>
-                      </td>
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          13/04/2021
-                        </h6>
-                      </td>
-                      <td
-                        class="MuiTableCell-root MuiTableCell-body"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-h6"
-                          style="font-weight: 400;"
-                        >
-                          Plano 1
-                        </h6>
-                      </td>
-                    </tr>
-                  </tbody>
+                  />
                 </table>
               </div>
               <nav
@@ -181,19 +78,6 @@ Object {
                       type="button"
                     >
                       2
-                      <span
-                        class="MuiTouchRipple-root"
-                      />
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      aria-label="Go to page 3"
-                      class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge"
-                      tabindex="0"
-                      type="button"
-                    >
-                      3
                       <span
                         class="MuiTouchRipple-root"
                       />
@@ -249,110 +133,7 @@ Object {
                 </thead>
                 <tbody
                   class="MuiTableBody-root"
-                >
-                  <tr
-                    class="MuiTableRow-root"
-                  >
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        Rodrigo Pereira 1
-                      </h6>
-                    </td>
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        13/04/2021
-                      </h6>
-                    </td>
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        Plano 1
-                      </h6>
-                    </td>
-                  </tr>
-                  <tr
-                    class="MuiTableRow-root"
-                  >
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        Rodrigo Pereira 2
-                      </h6>
-                    </td>
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        13/04/2021
-                      </h6>
-                    </td>
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        Plano 1
-                      </h6>
-                    </td>
-                  </tr>
-                  <tr
-                    class="MuiTableRow-root"
-                  >
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        Rodrigo Pereira 3
-                      </h6>
-                    </td>
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        13/04/2021
-                      </h6>
-                    </td>
-                    <td
-                      class="MuiTableCell-root MuiTableCell-body"
-                    >
-                      <h6
-                        class="MuiTypography-root MuiTypography-h6"
-                        style="font-weight: 400;"
-                      >
-                        Plano 1
-                      </h6>
-                    </td>
-                  </tr>
-                </tbody>
+                />
               </table>
             </div>
             <nav
@@ -384,19 +165,6 @@ Object {
                     type="button"
                   >
                     2
-                    <span
-                      class="MuiTouchRipple-root"
-                    />
-                  </button>
-                </li>
-                <li>
-                  <button
-                    aria-label="Go to page 3"
-                    class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge"
-                    tabindex="0"
-                    type="button"
-                  >
-                    3
                     <span
                       class="MuiTouchRipple-root"
                     />

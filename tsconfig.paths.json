@@ -18,7 +18,9 @@
       "ui": ["./ui"],
       "ui/*": ["./ui/*"],
       "wrappers": ["./wrappers"],
-      "wrappers/*": ["./wrappers/*"]
+      "wrappers/*": ["./wrappers/*"],
+      "libs": ["./libs"],
+      "libs/*": ["./libs/*"]
     }
   }
 }

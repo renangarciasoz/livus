@@ -28,6 +28,7 @@ Here's a quick description of each layer that compose the application.
 ├── /configs            # Project configuration as database building or web storage set ups
 ├── /constants          # Constants variables
 ├── /layouts            # Components that is a UI composition, a strong candidate to be extracted and become a shared library between project, avoid use hooks relate to a module, store or api request on this folder, but if you need it, consider to create a module or add to existed one.
+├── /libs               # External libs.
 ├── /modules            # Modules of application based on domains, all module should have a low coupling, all module should be a strong candidate to be extracted and become a micro-frontend on feature.
 ├── /pages              # Components that compose modules and layout with routes and application composition, this layer should not be extracted from the project.
 ├── /services           # Abstraction of API request and outside components, such as: Analytics, Feature flags and Browser storage management

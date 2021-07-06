@@ -5,8 +5,8 @@ import { Header } from 'modules/header';
 import { Footer } from 'modules/footer';
 
 type Props = {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   children: React.ReactElement;
 };
 

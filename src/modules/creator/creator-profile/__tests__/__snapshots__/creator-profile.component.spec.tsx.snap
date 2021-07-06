@@ -41,7 +41,7 @@ Object {
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-creatorName-3 MuiTypography-subtitle1"
+                  class="MuiTypography-root makeStyles-creatorHeadline-4 MuiTypography-subtitle1"
                 >
                   Creator description
                 </h6>
@@ -89,7 +89,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-creatorName-3 MuiTypography-subtitle1"
+                class="MuiTypography-root makeStyles-creatorHeadline-4 MuiTypography-subtitle1"
               >
                 Creator description
               </h6>

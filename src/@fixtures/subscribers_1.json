@@ -1,0 +1,46 @@
+{
+  "creator": {
+    "subscribers": [
+      {
+        "id": 111,
+        "name": "Rodrigo Pereira",
+        "subscription_date": "2021-04-13T12:00",
+        "tier": {
+          "name": "Plano 1"
+        }
+      },
+      {
+        "id": 222,
+        "name": "Mariana Dias",
+        "subscription_date": "2021-02-02T00:00",
+        "tier": {
+          "name": "Plano 2"
+        }
+      },
+      {
+        "id": 333,
+        "name": "Érica Rocha do Nascimento Albuquerque de Oliveira e Souza",
+        "subscription_date": "05/01/2021",
+        "tier": {
+          "name": "Plano 3"
+        }
+      },
+      {
+        "id": 444,
+        "name": "Antonio Rodrigues",
+        "subscription_date": "2021-02-02T00:00-0300",
+        "tier": {
+          "name": "Plano 3"
+        }
+      },
+      {
+        "id": 555,
+        "name": "Tiago Santos",
+        "subscription_date": "06/11/2020",
+        "tier": {
+          "name": "Plano 2"
+        }
+      }
+    ]
+  }
+}

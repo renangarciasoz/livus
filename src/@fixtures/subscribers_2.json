@@ -1,0 +1,46 @@
+{
+  "creator": {
+    "subscribers": [
+      {
+        "id": 666,
+        "name": "Jéssica Antunes",
+        "subscription_date": "2021-05-1T12:00",
+        "tier": {
+          "name": "Plano 1"
+        }
+      },
+      {
+        "id": 777,
+        "name": "Paola Ribeiro",
+        "subscription_date": "2020-10-01T00:00",
+        "tier": {
+          "name": "Plano 1"
+        }
+      },
+      {
+        "id": 888,
+        "name": "Cleiton Amaral",
+        "subscription_date": "10/02/2021",
+        "tier": {
+          "name": "Plano 3"
+        }
+      },
+      {
+        "id": 999,
+        "name": "Julia Alves",
+        "subscription_date": "2020-03-06T00:00-0200",
+        "tier": {
+          "name": "Plano 2"
+        }
+      },
+      {
+        "id": 1000,
+        "name": "Roberto Passos",
+        "subscription_date": "07/12/2020",
+        "tier": {
+          "name": "Plano 3"
+        }
+      }
+    ]
+  }
+}

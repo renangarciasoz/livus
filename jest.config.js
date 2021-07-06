@@ -2,10 +2,10 @@ module.exports = {
   setupFilesAfterEnv: ['@testing-library/jest-dom', '<rootDir>/jest.setup.js'],
   coverageThreshold: {
     global: {
-      branches: 55,
-      functions: 55,
-      lines: 55,
-      statements: 55,
+      branches: 20,
+      functions: 20,
+      lines: 20,
+      statements: 20,
     },
   },
   testRegex: '(?<!integ\\.)spec\\.ts(x)?$',
@@ -42,6 +42,7 @@ module.exports = {
     '^modules/(.*)$': '<rootDir>/src/modules/$1',
     '^pages/(.*)$': '<rootDir>/src/pages/$1',
     '^layouts(.*)$': '<rootDir>/src/layouts/$1',
+    '^libs(.*)$': '<rootDir>/src/libs/$1',
     '^ui(.*)$': '<rootDir>/src/ui/$1',
   },
 };

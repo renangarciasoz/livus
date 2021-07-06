@@ -1,3 +1,10 @@
-// Abstraction of API request and outside components, such as: Analytics, Feature flags and Browser storage management
+import { api } from 'libs/axios';
+import classesCatalog from './classes-catalog';
+import creator from './creator';
+import subscribers from './subscribers';
 
-export {};
+export default {
+  creator: creator(api),
+  subscribers: subscribers(api),
+  classesCatalog: classesCatalog(api),
+};

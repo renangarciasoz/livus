@@ -5,7 +5,7 @@ import { useStyles } from './creator-profile.styles';
 export const CreatorProfileComponent = ({
   cover = 'https://i.redd.it/5ig2a804on731.png',
   name = 'Creator Name',
-  description = 'Creator description',
+  headline = 'Creator description',
   image = 'https://i.pinimg.com/originals/8a/c6/a6/8ac6a6937ad46de77db14bb0a8f1b81b.jpg',
 }) => {
   const classes = useStyles({ cover });
@@ -31,8 +31,11 @@ export const CreatorProfileComponent = ({
               </Typography>
             </Grid>
             <Grid item xs={12}>
-              <Typography variant="subtitle1" className={classes.creatorName}>
-                {description}
+              <Typography
+                variant="subtitle1"
+                className={classes.creatorHeadline}
+              >
+                {headline}
               </Typography>
             </Grid>
           </Grid>

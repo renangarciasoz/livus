@@ -1,5 +1,8 @@
 export type Subscriber = {
+  id: number;
   name: string;
-  data: string;
-  plan: string;
+  subscription_date: string;
+  tier: {
+    name: string;
+  };
 };

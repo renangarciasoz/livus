@@ -16,9 +16,15 @@ import { Subscriber } from '@types';
 
 type Props = {
   subscribers: Subscriber[];
+  handleChange: (event: React.ChangeEvent<unknown>, value: number) => void;
+  currentPage: number;
 };
 
-export const SubscribersComponent = ({ subscribers }: Props) => {
+export const SubscribersComponent = ({
+  subscribers,
+  handleChange,
+  currentPage,
+}: Props) => {
   const classes = useStyles();
 
   return (
@@ -45,12 +51,12 @@ export const SubscribersComponent = ({ subscribers }: Props) => {
                       </TableCell>
                       <TableCell>
                         <Typography variant="h6" style={{ fontWeight: 400 }}>
-                          {subscriber.data}
+                          {subscriber.subscription_date}
                         </Typography>
                       </TableCell>
                       <TableCell>
                         <Typography variant="h6" style={{ fontWeight: 400 }}>
-                          {subscriber.plan}
+                          {subscriber.tier.name}
                         </Typography>
                       </TableCell>
                     </TableRow>
@@ -62,9 +68,11 @@ export const SubscribersComponent = ({ subscribers }: Props) => {
               size="large"
               hidePrevButton
               hideNextButton
-              count={3}
+              count={2}
               variant="outlined"
               className={classes.pagination}
+              onChange={handleChange}
+              page={currentPage}
             />
           </Grid>
         </Grid>

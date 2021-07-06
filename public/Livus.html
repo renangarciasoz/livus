@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="pt-br" class="js-focus-visible" data-js-focus-visible=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="theme-color" content="#1A1A1A"><link rel="stylesheet" href="./Livus_files/css"><meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"><title>Livus</title><meta name="description" content="Livus"><link rel="icon" href="http://localhost:3000/favicon.png"><meta name="next-head-count" content="5"><noscript data-n-css=""></noscript><script defer="" nomodule="" src="./Livus_files/polyfills.js"></script><script src="./Livus_files/webpack.js" defer=""></script><script src="./Livus_files/main.js" defer=""></script><script src="./Livus_files/_app.js" defer=""></script><script src="./Livus_files/index.js" defer=""></script><script src="./Livus_files/_buildManifest.js" defer=""></script><script src="./Livus_files/_ssgManifest.js" defer=""></script><noscript id="__next_css__DO_NOT_USE__"></noscript><style data-jss="" data-meta="MuiCssBaseline">
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+strong, b {
+  font-weight: 700;
+}
+body {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.43;
+  background-color: #fafafa;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+body::backdrop {
+  background-color: #fafafa;
+}
+</style><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiBox">
+
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiTypography">
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.43;
+}
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.66;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.75;
+  text-transform: uppercase;
+}
+.MuiTypography-h1 {
+  font-size: 6rem;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 1.167;
+}
+.MuiTypography-h2 {
+  font-size: 3.75rem;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.MuiTypography-h3 {
+  font-size: 3rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.167;
+}
+.MuiTypography-h4 {
+  font-size: 2.125rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.235;
+}
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.334;
+}
+.MuiTypography-h6 {
+  font-size: 1.25rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.MuiTypography-subtitle2 {
+  font-size: 0.875rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 1.57;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 2.66;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #1A1A1A;
+}
+.MuiTypography-colorSecondary {
+  color: #f50057;
+}
+.MuiTypography-colorTextPrimary {
+  color: rgba(0, 0, 0, 0.87);
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #f44336;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+</style><style data-jss="" data-meta="MuiContainer">
+.MuiContainer-root {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.MuiContainer-disableGutters {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width:600px) {
+  .MuiContainer-fixed {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-fixed {
+    max-width: 960px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-fixed {
+    max-width: 1280px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-fixed {
+    max-width: 1920px;
+  }
+}
+@media (min-width:0px) {
+  .MuiContainer-maxWidthXs {
+    max-width: 444px;
+  }
+}
+@media (min-width:600px) {
+  .MuiContainer-maxWidthSm {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-maxWidthMd {
+    max-width: 960px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 1280px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-maxWidthXl {
+    max-width: 1920px;
+  }
+}
+</style><style data-jss="" data-meta="MuiGrid">
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-zeroMinWidth {
+  min-width: 0;
+}
+.MuiGrid-direction-xs-column {
+  flex-direction: column;
+}
+.MuiGrid-direction-xs-column-reverse {
+  flex-direction: column-reverse;
+}
+.MuiGrid-direction-xs-row-reverse {
+  flex-direction: row-reverse;
+}
+.MuiGrid-wrap-xs-nowrap {
+  flex-wrap: nowrap;
+}
+.MuiGrid-wrap-xs-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.MuiGrid-align-items-xs-center {
+  align-items: center;
+}
+.MuiGrid-align-items-xs-flex-start {
+  align-items: flex-start;
+}
+.MuiGrid-align-items-xs-flex-end {
+  align-items: flex-end;
+}
+.MuiGrid-align-items-xs-baseline {
+  align-items: baseline;
+}
+.MuiGrid-align-content-xs-center {
+  align-content: center;
+}
+.MuiGrid-align-content-xs-flex-start {
+  align-content: flex-start;
+}
+.MuiGrid-align-content-xs-flex-end {
+  align-content: flex-end;
+}
+.MuiGrid-align-content-xs-space-between {
+  align-content: space-between;
+}
+.MuiGrid-align-content-xs-space-around {
+  align-content: space-around;
+}
+.MuiGrid-justify-xs-center {
+  justify-content: center;
+}
+.MuiGrid-justify-xs-flex-end {
+  justify-content: flex-end;
+}
+.MuiGrid-justify-xs-space-between {
+  justify-content: space-between;
+}
+.MuiGrid-justify-xs-space-around {
+  justify-content: space-around;
+}
+.MuiGrid-justify-xs-space-evenly {
+  justify-content: space-evenly;
+}
+.MuiGrid-spacing-xs-1 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 4px;
+}
+.MuiGrid-spacing-xs-2 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+}
+.MuiGrid-spacing-xs-3 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+}
+.MuiGrid-spacing-xs-4 {
+  width: calc(100% + 32px);
+  margin: -16px;
+}
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 16px;
+}
+.MuiGrid-spacing-xs-5 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.MuiGrid-spacing-xs-5 > .MuiGrid-item {
+  padding: 20px;
+}
+.MuiGrid-spacing-xs-6 {
+  width: calc(100% + 48px);
+  margin: -24px;
+}
+.MuiGrid-spacing-xs-6 > .MuiGrid-item {
+  padding: 24px;
+}
+.MuiGrid-spacing-xs-7 {
+  width: calc(100% + 56px);
+  margin: -28px;
+}
+.MuiGrid-spacing-xs-7 > .MuiGrid-item {
+  padding: 28px;
+}
+.MuiGrid-spacing-xs-8 {
+  width: calc(100% + 64px);
+  margin: -32px;
+}
+.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+  padding: 32px;
+}
+.MuiGrid-spacing-xs-9 {
+  width: calc(100% + 72px);
+  margin: -36px;
+}
+.MuiGrid-spacing-xs-9 > .MuiGrid-item {
+  padding: 36px;
+}
+.MuiGrid-spacing-xs-10 {
+  width: calc(100% + 80px);
+  margin: -40px;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+  padding: 40px;
+}
+.MuiGrid-grid-xs-auto {
+  flex-grow: 0;
+  max-width: none;
+  flex-basis: auto;
+}
+.MuiGrid-grid-xs-true {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.MuiGrid-grid-xs-1 {
+  flex-grow: 0;
+  max-width: 8.333333%;
+  flex-basis: 8.333333%;
+}
+.MuiGrid-grid-xs-2 {
+  flex-grow: 0;
+  max-width: 16.666667%;
+  flex-basis: 16.666667%;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.MuiGrid-grid-xs-5 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-grid-xs-7 {
+  flex-grow: 0;
+  max-width: 58.333333%;
+  flex-basis: 58.333333%;
+}
+.MuiGrid-grid-xs-8 {
+  flex-grow: 0;
+  max-width: 66.666667%;
+  flex-basis: 66.666667%;
+}
+.MuiGrid-grid-xs-9 {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.MuiGrid-grid-xs-10 {
+  flex-grow: 0;
+  max-width: 83.333333%;
+  flex-basis: 83.333333%;
+}
+.MuiGrid-grid-xs-11 {
+  flex-grow: 0;
+  max-width: 91.666667%;
+  flex-basis: 91.666667%;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:600px) {
+  .MuiGrid-grid-sm-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-sm-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-sm-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-sm-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-sm-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .MuiGrid-grid-md-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-md-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-md-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-md-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-md-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-md-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-md-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1280px) {
+  .MuiGrid-grid-lg-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-lg-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .MuiGrid-grid-xl-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xl-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xl-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xl-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xl-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xl-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xl-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xl-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xl-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xl-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xl-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xl-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xl-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xl-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+</style><style data-jss="" data-meta="MuiLink">
+.MuiLink-underlineNone {
+  text-decoration: none;
+}
+.MuiLink-underlineHover {
+  text-decoration: none;
+}
+.MuiLink-underlineHover:hover {
+  text-decoration: underline;
+}
+.MuiLink-underlineAlways {
+  text-decoration: underline;
+}
+.MuiLink-button {
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiLink-button::-moz-focus-inner {
+  border-style: none;
+}
+.MuiLink-button.Mui-focusVisible {
+  outline: auto;
+}
+</style><style data-jss="" data-meta="MuiTable">
+.MuiTable-root {
+  width: 100%;
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.MuiTable-root caption {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 16px;
+  font-size: 0.875rem;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.43;
+  caption-side: bottom;
+}
+.MuiTable-stickyHeader {
+  border-collapse: separate;
+}
+</style><style data-jss="" data-meta="MuiTableBody">
+.MuiTableBody-root {
+  display: table-row-group;
+}
+</style><style data-jss="" data-meta="MuiTableCell">
+.MuiTableCell-root {
+  display: table-cell;
+  padding: 16px;
+  font-size: 0.875rem;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.43;
+  border-bottom: 1px solid
+    rgba(224, 224, 224, 1);
+  vertical-align: inherit;
+}
+.MuiTableCell-head {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.MuiTableCell-body {
+  color: rgba(0, 0, 0, 0.87);
+}
+.MuiTableCell-footer {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.75rem;
+  line-height: 1.3125rem;
+}
+.MuiTableCell-sizeSmall {
+  padding: 6px 24px 6px 16px;
+}
+.MuiTableCell-sizeSmall:last-child {
+  padding-right: 16px;
+}
+.MuiTableCell-sizeSmall.MuiTableCell-paddingCheckbox {
+  width: 24px;
+  padding: 0 12px 0 16px;
+}
+.MuiTableCell-sizeSmall.MuiTableCell-paddingCheckbox:last-child {
+  padding-left: 12px;
+  padding-right: 16px;
+}
+.MuiTableCell-sizeSmall.MuiTableCell-paddingCheckbox > * {
+  padding: 0;
+}
+.MuiTableCell-paddingCheckbox {
+  width: 48px;
+  padding: 0 0 0 4px;
+}
+.MuiTableCell-paddingCheckbox:last-child {
+  padding-left: 0;
+  padding-right: 4px;
+}
+.MuiTableCell-paddingNone {
+  padding: 0;
+}
+.MuiTableCell-paddingNone:last-child {
+  padding: 0;
+}
+.MuiTableCell-alignLeft {
+  text-align: left;
+}
+.MuiTableCell-alignCenter {
+  text-align: center;
+}
+.MuiTableCell-alignRight {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.MuiTableCell-alignJustify {
+  text-align: justify;
+}
+.MuiTableCell-stickyHeader {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  position: sticky;
+  background-color: #fafafa;
+}
+</style><style data-jss="" data-meta="MuiTableContainer">
+.MuiTableContainer-root {
+  width: 100%;
+  overflow-x: auto;
+}
+</style><style data-jss="" data-meta="MuiTableHead">
+.MuiTableHead-root {
+  display: table-header-group;
+}
+</style><style data-jss="" data-meta="MuiTableRow">
+.MuiTableRow-root {
+  color: inherit;
+  display: table-row;
+  outline: 0;
+  vertical-align: middle;
+}
+.MuiTableRow-root.MuiTableRow-hover:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiTableRow-root.Mui-selected, .MuiTableRow-root.Mui-selected:hover {
+  background-color: rgba(245, 0, 87, 0.08);
+}
+</style><style data-jss="" data-meta="makeStyles">
+.makeStyles-main-1 {
+  display: flex;
+  min-height: calc(100vh - 97px);
+  flex-direction: column;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.makeStyles-root-2 {
+  top: 0;
+  color: white;
+  padding: 32px 0px;
+  position: sticky;
+  background: #1A1A1A;
+}
+.makeStyles-link-3 {
+  color: #FFFDFB;
+  font-weight: 500;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.makeStyles-footer-15 {
+  padding: 64px 0px;
+  background: #F6F6F4;
+}
+.makeStyles-footerLinkHeader-16 {
+  margin-bottom: 16px;
+}
+.makeStyles-footerLink-17 {
+  margin: 4px 0px;
+  font-weight: 400;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.makeStyles-root-4 {
+  flex: 1;
+  height: 397px;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.makeStyles-photo-5 {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  margin-bottom: -16px;
+}
+.makeStyles-creatorName-6 {
+  color: #FFFDFB;
+  font-weight: 500;
+}
+.makeStyles-creatorDescription-7 {
+  color: #FFFDFB;
+}
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="MuiPaginationItem">
+.MuiPaginationItem-root {
+  color: rgba(0, 0, 0, 0.87);
+  height: 32px;
+  margin: 0 3px;
+  padding: 0 6px;
+  font-size: 0.875rem;
+  min-width: 32px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.43;
+  border-radius: 16px;
+}
+.MuiPaginationItem-page {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiPaginationItem-page:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiPaginationItem-page.Mui-focusVisible {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiPaginationItem-page.Mui-selected {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiPaginationItem-page.Mui-disabled {
+  opacity: 0.38;
+}
+.MuiPaginationItem-page.Mui-selected:hover, .MuiPaginationItem-page.Mui-selected.Mui-focusVisible {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiPaginationItem-page.Mui-selected.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+@media (hover: none) {
+  .MuiPaginationItem-page.Mui-selected:hover, .MuiPaginationItem-page.Mui-selected.Mui-focusVisible {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+}
+@media (hover: none) {
+  .MuiPaginationItem-page:hover {
+    background-color: transparent;
+  }
+}
+.MuiPaginationItem-sizeSmall {
+  height: 26px;
+  margin: 0 1px;
+  padding: 0 4px;
+  min-width: 26px;
+  border-radius: 13px;
+}
+.MuiPaginationItem-sizeSmall .MuiPaginationItem-icon {
+  font-size: 1.125rem;
+}
+.MuiPaginationItem-sizeLarge {
+  height: 40px;
+  padding: 0 10px;
+  font-size: 0.9375rem;
+  min-width: 40px;
+  border-radius: 20px;
+}
+.MuiPaginationItem-sizeLarge .MuiPaginationItem-icon {
+  font-size: 1.375rem;
+}
+.MuiPaginationItem-textPrimary.Mui-selected {
+  color: #FFFDFB;
+  background-color: #1A1A1A;
+}
+.MuiPaginationItem-textPrimary.Mui-selected:hover, .MuiPaginationItem-textPrimary.Mui-selected.Mui-focusVisible {
+  background-color: rgb(18, 18, 18);
+}
+.MuiPaginationItem-textPrimary.Mui-selected.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiPaginationItem-textPrimary.Mui-selected:hover, .MuiPaginationItem-textPrimary.Mui-selected.Mui-focusVisible {
+    background-color: #1A1A1A;
+  }
+}
+.MuiPaginationItem-textSecondary.Mui-selected {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiPaginationItem-textSecondary.Mui-selected:hover, .MuiPaginationItem-textSecondary.Mui-selected.Mui-focusVisible {
+  background-color: #c51162;
+}
+.MuiPaginationItem-textSecondary.Mui-selected.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiPaginationItem-textSecondary.Mui-selected:hover, .MuiPaginationItem-textSecondary.Mui-selected.Mui-focusVisible {
+    background-color: #f50057;
+  }
+}
+.MuiPaginationItem-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+.MuiPaginationItem-outlined.Mui-selected.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiPaginationItem-outlinedPrimary.Mui-selected {
+  color: #1A1A1A;
+  border: 1px solid rgba(26, 26, 26, 0.5);
+  background-color: rgba(26, 26, 26, 0.12);
+}
+.MuiPaginationItem-outlinedPrimary.Mui-selected:hover, .MuiPaginationItem-outlinedPrimary.Mui-selected.Mui-focusVisible {
+  background-color: rgba(26, 26, 26, 0.16);
+}
+.MuiPaginationItem-outlinedPrimary.Mui-selected.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiPaginationItem-outlinedPrimary.Mui-selected:hover, .MuiPaginationItem-outlinedPrimary.Mui-selected.Mui-focusVisible {
+    background-color: transparent;
+  }
+}
+.MuiPaginationItem-outlinedSecondary.Mui-selected {
+  color: #f50057;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+  background-color: rgba(245, 0, 87, 0.12);
+}
+.MuiPaginationItem-outlinedSecondary.Mui-selected:hover, .MuiPaginationItem-outlinedSecondary.Mui-selected.Mui-focusVisible {
+  background-color: rgba(245, 0, 87, 0.16);
+}
+.MuiPaginationItem-outlinedSecondary.Mui-selected.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiPaginationItem-outlinedSecondary.Mui-selected:hover, .MuiPaginationItem-outlinedSecondary.Mui-selected.Mui-focusVisible {
+    background-color: transparent;
+  }
+}
+.MuiPaginationItem-rounded {
+  border-radius: 4px;
+}
+.MuiPaginationItem-ellipsis {
+  height: auto;
+}
+.MuiPaginationItem-ellipsis.Mui-disabled {
+  opacity: 0.38;
+}
+.MuiPaginationItem-icon {
+  margin: 0 -8px;
+  font-size: 1.25rem;
+}
+</style><style data-jss="" data-meta="MuiPagination">
+.MuiPagination-ul {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.makeStyles-root-13 {
+  display: flex;
+  align-items: center;
+}
+.makeStyles-pagination-14 {
+  display: flex;
+  padding: 24px 0px;
+  justify-content: center;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.makeStyles-root-12 {
+  padding: 36px 0px;
+  border-bottom: 1px solid black;
+}
+</style><style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style></head><body><div id="__next"><header class="makeStyles-root-2"><div class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="https://www.livus.com.br/"><svg width="79" height="28" viewBox="0 0 79 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.6965 23.8884H3.59927V4.79987H0V27.2678H15.0702L13.6965 23.8884Z" fill="#FFFDFB"></path><path d="M14.2675 9.11115H10.8125V18.7481H14.2675V9.11115Z" fill="#FFFDFB"></path><path d="M42.1832 14.9496C42.1832 17.6628 42.4511 19.9089 45.6725 19.9089C48.894 19.9089 49.1619 17.6628 49.1619 14.9496V9.11112H52.6169V15.2725C52.6169 20.4996 50.2815 23.151 45.6725 23.151C41.1322 23.151 38.7281 20.3004 38.7281 14.9015V7.07794H42.1832V14.9496Z" fill="#FFFDFB"></path><path d="M26.6622 20.6163L21.9296 10.8694L21.8472 10.7045H17.925L25.1167 25.2802H28.2008L35.3581 10.7045H31.4841L26.6622 20.6163Z" fill="#FFFDFB"></path><path d="M12.5379 0.799805C10.8138 0.799805 10.2094 1.84387 10.2094 3.12834C10.2094 4.41281 10.8069 5.45687 12.5379 5.45687C14.2688 5.45687 14.8664 4.41281 14.8664 3.12834C14.8664 1.84387 14.2688 0.799805 12.5379 0.799805Z" fill="#FFFDFB"></path><path d="M63.7014 16.4953C61.4965 15.5749 59.9854 15.0529 59.9854 13.844C59.9854 12.951 60.9195 12.2779 61.7575 12.2779C62.6848 12.2779 63.4335 13.0472 63.7701 13.8165L63.9006 14.105L66.8267 12.5801L66.7168 12.3259C65.8857 10.3889 63.9349 9.03577 61.9773 9.03577C58.955 9.03577 56.6746 11.2063 56.6746 14.0912C56.6746 17.1616 59.0375 18.1507 61.1324 19.0231C62.8084 19.7237 64.2578 20.3281 64.2578 21.8461C64.2578 23.1856 63.2618 24.1197 61.8331 24.1197C60.1433 24.1197 59.3946 23.1993 58.6734 21.6126L58.5566 21.3447L55.5 22.6361L55.5893 22.8971C56.5303 25.6858 58.852 27.3549 61.8056 27.3549C65.1645 27.3549 67.7884 24.8203 67.7884 21.592C67.7746 18.6453 65.7964 17.3745 63.7014 16.4953Z" fill="#FFFDFB"></path><path d="M73.6625 0.795532C70.1404 0.795532 68.925 2.92038 68.925 5.53303C68.925 8.14568 70.1486 10.2788 73.6625 10.2788C77.1763 10.2788 78.4 8.14568 78.4 5.53303C78.4 2.92038 77.1763 0.795532 73.6625 0.795532Z" fill="#509CF3"></path></svg></a></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"><p class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-3 MuiTypography-colorPrimary" href="https://app.livus.com.br/#/waitlist">Entrar</a></p></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"><p class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-3 MuiTypography-colorPrimary" href="https://app.livus.com.br/#/waitlist">Seja um Anfitrião</a></p></div></div></div></header><main class="makeStyles-main-1"><div class="makeStyles-root-4 makeStyles-root-23"><div class="MuiContainer-root MuiContainer-maxWidthLg"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-flex-end"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"><img src="./Livus_files/8ac6a6937ad46de77db14bb0a8f1b81b.jpg" width="170" height="170" class="makeStyles-photo-5" alt="Creator Name"></div><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h2 class="MuiTypography-root makeStyles-creatorName-6 MuiTypography-h2">Creator Name</h2></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-creatorName-6 MuiTypography-subtitle1">Creator description</h6></div></div></div></div></div><div class="MuiBox-root MuiBox-root-25"><div class="makeStyles-root-12"><div class="MuiContainer-root MuiContainer-maxWidthLg"><div class="MuiGrid-root MuiGrid-container"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"><h5 class="MuiTypography-root MuiTypography-h5" font-weight="500"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Assinantes</a></h5></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"><h5 class="MuiTypography-root MuiTypography-h5" style="opacity: 0.4;"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Cursos</a></h5></div></div></div></div><div class="makeStyles-root-13"><div class="MuiContainer-root MuiContainer-maxWidthLg"><div class="MuiGrid-root MuiGrid-container"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12" style="padding: 32px 0px;"><div class="MuiTableContainer-root"><table class="MuiTable-root"><thead class="MuiTableHead-root"><tr class="MuiTableRow-root MuiTableRow-head"><th class="MuiTableCell-root MuiTableCell-head" scope="col"></th><th class="MuiTableCell-root MuiTableCell-head" scope="col"></th><th class="MuiTableCell-root MuiTableCell-head" scope="col"></th></tr></thead><tbody class="MuiTableBody-root"><tr class="MuiTableRow-root"><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">Rodrigo Pereira 1</h6></td><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">13/04/2021</h6></td><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">Plano 1</h6></td></tr><tr class="MuiTableRow-root"><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">Rodrigo Pereira 2</h6></td><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">13/04/2021</h6></td><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">Plano 1</h6></td></tr><tr class="MuiTableRow-root"><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">Rodrigo Pereira 3</h6></td><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">13/04/2021</h6></td><td class="MuiTableCell-root MuiTableCell-body"><h6 class="MuiTypography-root MuiTypography-h6" style="font-weight: 400;">Plano 1</h6></td></tr></tbody></table></div><nav aria-label="pagination navigation" class="MuiPagination-root makeStyles-pagination-14"><ul class="MuiPagination-ul"><li><button class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined Mui-selected MuiPaginationItem-sizeLarge" tabindex="0" type="button" aria-current="true" aria-label="page 1">1<span class="MuiTouchRipple-root"></span></button></li><li><button class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge" tabindex="0" type="button" aria-label="Go to page 2">2<span class="MuiTouchRipple-root"></span></button></li><li><button class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-page MuiPaginationItem-outlined MuiPaginationItem-sizeLarge" tabindex="0" type="button" aria-label="Go to page 3">3<span class="MuiTouchRipple-root"></span></button></li></ul></nav></div></div></div></div></div></main><div class="makeStyles-footer-15"><div class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"><div class="MuiGrid-root MuiGrid-container"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="https://www.livus.com.br/"><svg width="79" height="28" viewBox="0 0 79 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.6965 23.8884H3.59927V4.79987H0V27.2678H15.0702L13.6965 23.8884Z" fill="#1A1A1A"></path><path d="M14.2675 9.11115H10.8125V18.7481H14.2675V9.11115Z" fill="#1A1A1A"></path><path d="M42.1832 14.9496C42.1832 17.6628 42.4511 19.9089 45.6725 19.9089C48.894 19.9089 49.1619 17.6628 49.1619 14.9496V9.11112H52.6169V15.2725C52.6169 20.4996 50.2815 23.151 45.6725 23.151C41.1322 23.151 38.7281 20.3004 38.7281 14.9015V7.07794H42.1832V14.9496Z" fill="#1A1A1A"></path><path d="M26.6622 20.6163L21.9296 10.8694L21.8472 10.7045H17.925L25.1167 25.2802H28.2008L35.3581 10.7045H31.4841L26.6622 20.6163Z" fill="#1A1A1A"></path><path d="M12.5379 0.799805C10.8138 0.799805 10.2094 1.84387 10.2094 3.12834C10.2094 4.41281 10.8069 5.45687 12.5379 5.45687C14.2688 5.45687 14.8664 4.41281 14.8664 3.12834C14.8664 1.84387 14.2688 0.799805 12.5379 0.799805Z" fill="#1A1A1A"></path><path d="M63.7014 16.4953C61.4965 15.5749 59.9854 15.0529 59.9854 13.844C59.9854 12.951 60.9195 12.2779 61.7575 12.2779C62.6848 12.2779 63.4335 13.0472 63.7701 13.8165L63.9006 14.105L66.8267 12.5801L66.7168 12.3259C65.8857 10.3889 63.9349 9.03577 61.9773 9.03577C58.955 9.03577 56.6746 11.2063 56.6746 14.0912C56.6746 17.1616 59.0375 18.1507 61.1324 19.0231C62.8084 19.7237 64.2578 20.3281 64.2578 21.8461C64.2578 23.1856 63.2618 24.1197 61.8331 24.1197C60.1433 24.1197 59.3946 23.1993 58.6734 21.6126L58.5566 21.3447L55.5 22.6361L55.5893 22.8971C56.5303 25.6858 58.852 27.3549 61.8056 27.3549C65.1645 27.3549 67.7884 24.8203 67.7884 21.592C67.7746 18.6453 65.7964 17.3745 63.7014 16.4953Z" fill="#1A1A1A"></path><path d="M73.6625 0.795532C70.1404 0.795532 68.925 2.92038 68.925 5.53303C68.925 8.14568 70.1486 10.2788 73.6625 10.2788C77.1763 10.2788 78.4 8.14568 78.4 5.53303C78.4 2.92038 77.1763 0.795532 73.6625 0.795532Z" fill="#509CF3"></path></svg></a></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"></div><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-2"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLinkHeader-16 MuiTypography-subtitle2">Comunidade</h6></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLink-17 MuiTypography-subtitle2"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Creator Community</a></h6></div></div><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-1"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLinkHeader-16 MuiTypography-subtitle2">Social</h6></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLink-17 MuiTypography-subtitle2"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Instagram</a></h6></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLink-17 MuiTypography-subtitle2"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Linkedin</a></h6></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"></div><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-1"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLinkHeader-16 MuiTypography-subtitle2">Empresa</h6></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLink-17 MuiTypography-subtitle2"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Sobre a Livus</a></h6></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLink-17 MuiTypography-subtitle2"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Vagas</a></h6></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"></div><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-1"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLinkHeader-16 MuiTypography-subtitle2">Ajudas</h6></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"><h6 class="MuiTypography-root makeStyles-footerLink-17 MuiTypography-subtitle2"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary" href="http://localhost:3000/!#">Fale Conosco</a></h6></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"></div></div></div></div><script src="./Livus_files/react-refresh.js"></script><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"development","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><div id="__next-build-watcher" style="position: fixed; bottom: 10px; right: 20px; width: 0px; height: 0px; z-index: 99999;"></div><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer></body><loom-container id="lo-engage-ext-container"><div></div><loom-shadow classname="resolved"></loom-shadow></loom-container></html>

@@ -20,14 +20,12 @@ Object {
               <h5
                 class="MuiTypography-root MuiTypography-h5"
               >
-                <strong>
-                  <a
-                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-                    href="!#"
-                  >
-                    Assinantes
-                  </a>
-                </strong>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/subscribers"
+                >
+                  Assinantes
+                </a>
               </h5>
             </div>
             <div
@@ -37,14 +35,12 @@ Object {
                 class="MuiTypography-root MuiTypography-h5"
                 style="opacity: 0.4;"
               >
-                <strong>
-                  <a
-                    class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-                    href="!#"
-                  >
-                    Cursos
-                  </a>
-                </strong>
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                  href="/classes"
+                >
+                  Cursos
+                </a>
               </h5>
             </div>
           </div>
@@ -68,14 +64,12 @@ Object {
             <h5
               class="MuiTypography-root MuiTypography-h5"
             >
-              <strong>
-                <a
-                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-                  href="!#"
-                >
-                  Assinantes
-                </a>
-              </strong>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/subscribers"
+              >
+                Assinantes
+              </a>
             </h5>
           </div>
           <div
@@ -85,14 +79,12 @@ Object {
               class="MuiTypography-root MuiTypography-h5"
               style="opacity: 0.4;"
             >
-              <strong>
-                <a
-                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-                  href="!#"
-                >
-                  Cursos
-                </a>
-              </strong>
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="/classes"
+              >
+                Cursos
+              </a>
             </h5>
           </div>
         </div>

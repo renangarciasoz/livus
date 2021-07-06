@@ -7,7 +7,8 @@ type Props = {
 export const useStyles = makeStyles(({ palette, spacing }) => ({
   root: {
     display: 'flex',
-    height: '397px',
+    height: '400px',
+    paddingTop: spacing(5),
     alignItems: 'flex-end',
     backgroundImage: (props: Props) => `url(${props.cover})`,
     backgroundPosition: 'center',
@@ -25,7 +26,7 @@ export const useStyles = makeStyles(({ palette, spacing }) => ({
     color: palette.primary.contrastText,
     fontWeight: 500,
   },
-  creatorDescription: {
+  creatorHeadline: {
     color: palette.primary.contrastText,
   },
 }));

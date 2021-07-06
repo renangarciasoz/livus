@@ -1,6 +1,8 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { NavigationComponent } from './navigation.component';
 
 export const Navigation = () => {
-  return <NavigationComponent />;
+  const router = useRouter();
+  return <NavigationComponent currentNavigation={router.asPath} />;
 };

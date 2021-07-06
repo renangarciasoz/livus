@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <header
-        class="makeStyles-header-1"
+        class="makeStyles-root-2"
       >
         <div
           class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
@@ -19,7 +19,7 @@ Object {
             >
               <a
                 class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-                href="!#"
+                href="https://www.livus.com.br/"
               >
                 <svg
                   fill="none"
@@ -69,12 +69,10 @@ Object {
                 class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
               >
                 <a
-                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary"
-                  href="!#"
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-3 MuiTypography-colorPrimary"
+                  href="https://app.livus.com.br/#/waitlist"
                 >
-                  <strong>
-                    Entrar
-                  </strong>
+                  Entrar
                 </a>
               </p>
             </div>
@@ -85,12 +83,10 @@ Object {
                 class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
               >
                 <a
-                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary"
-                  href="!#"
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-3 MuiTypography-colorPrimary"
+                  href="https://app.livus.com.br/#/waitlist"
                 >
-                  <strong>
-                    Seja um Anfitrião
-                  </strong>
+                  Seja um Anfitrião
                 </a>
               </p>
             </div>
@@ -98,14 +94,14 @@ Object {
         </div>
       </header>
       <main
-        class="makeStyles-main-2"
+        class="makeStyles-main-1"
       >
         <h1>
           test
         </h1>
       </main>
-      <footer
-        class="makeStyles-footer-3"
+      <div
+        class="makeStyles-footer-4"
       >
         <div
           class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
@@ -118,7 +114,7 @@ Object {
             >
               <a
                 class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-                href="!#"
+                href="https://www.livus.com.br/"
               >
                 <svg
                   fill="none"
@@ -168,18 +164,16 @@ Object {
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
                 >
-                  <strong>
-                    Comunidade
-                  </strong>
+                  Comunidade
                 </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -197,18 +191,16 @@ Object {
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
                 >
-                  <strong>
-                    Social
-                  </strong>
+                  Social
                 </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -222,7 +214,7 @@ Object {
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -243,18 +235,16 @@ Object {
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
                 >
-                  <strong>
-                    Empresa
-                  </strong>
+                  Empresa
                 </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -268,7 +258,7 @@ Object {
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -289,18 +279,16 @@ Object {
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
                 >
-                  <strong>
-                    Ajudas
-                  </strong>
+                  Ajudas
                 </h6>
               </div>
               <div
                 class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
               >
                 <h6
-                  class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                  class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
                 >
                   <a
                     class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -316,12 +304,12 @@ Object {
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
           />
         </div>
-      </footer>
+      </div>
     </div>
   </body>,
   "container": <div>
     <header
-      class="makeStyles-header-1"
+      class="makeStyles-root-2"
     >
       <div
         class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
@@ -334,7 +322,7 @@ Object {
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-              href="!#"
+              href="https://www.livus.com.br/"
             >
               <svg
                 fill="none"
@@ -384,12 +372,10 @@ Object {
               class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
             >
               <a
-                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary"
-                href="!#"
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-3 MuiTypography-colorPrimary"
+                href="https://app.livus.com.br/#/waitlist"
               >
-                <strong>
-                  Entrar
-                </strong>
+                Entrar
               </a>
             </p>
           </div>
@@ -400,12 +386,10 @@ Object {
               class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
             >
               <a
-                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary"
-                href="!#"
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-3 MuiTypography-colorPrimary"
+                href="https://app.livus.com.br/#/waitlist"
               >
-                <strong>
-                  Seja um Anfitrião
-                </strong>
+                Seja um Anfitrião
               </a>
             </p>
           </div>
@@ -413,14 +397,14 @@ Object {
       </div>
     </header>
     <main
-      class="makeStyles-main-2"
+      class="makeStyles-main-1"
     >
       <h1>
         test
       </h1>
     </main>
-    <footer
-      class="makeStyles-footer-3"
+    <div
+      class="makeStyles-footer-4"
     >
       <div
         class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
@@ -433,7 +417,7 @@ Object {
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
-              href="!#"
+              href="https://www.livus.com.br/"
             >
               <svg
                 fill="none"
@@ -483,18 +467,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
               >
-                <strong>
-                  Comunidade
-                </strong>
+                Comunidade
               </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -512,18 +494,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
               >
-                <strong>
-                  Social
-                </strong>
+                Social
               </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -537,7 +517,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -558,18 +538,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
               >
-                <strong>
-                  Empresa
-                </strong>
+                Empresa
               </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -583,7 +561,7 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -604,18 +582,16 @@ Object {
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLinkHeader-4 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLinkHeader-5 MuiTypography-subtitle2"
               >
-                <strong>
-                  Ajudas
-                </strong>
+                Ajudas
               </h6>
             </div>
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
             >
               <h6
-                class="MuiTypography-root makeStyles-footerLink-5 MuiTypography-subtitle2"
+                class="MuiTypography-root makeStyles-footerLink-6 MuiTypography-subtitle2"
               >
                 <a
                   class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
@@ -631,7 +607,7 @@ Object {
           class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
         />
       </div>
-    </footer>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
