@@ -1,30 +1,24 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@fixtures": ["src/@fixtures"],
-      "@fixtures/*": ["src/@fixtures/*"],
-      "@types": ["src/@types"],
-      "@types/*": ["src/@types/*"],
-      "modules": ["src/modules"],
-      "modules/*": ["src/modules/*"],
-      "layouts": ["src/layouts"],
-      "layouts/*": ["src/layouts/*"],
-      "services": ["src/services"],
-      "services/*": ["src/services/*"],
-      "stores": ["./src/stores"],
-      "stores/*": ["./src/stores/*"],
-      "routes": ["src/routes"],
-      "routes/*": ["src/routes/*"],
-      "hooks": ["src/hooks"],
-      "hooks/*": ["src/hooks/*"],
-      "constants/*": ["src/constants/*"],
-      "configs": ["src/configs"],
-      "configs/*": ["src/configs/*"],
-      "ui": ["src/ui"],
-      "ui/*": ["src/ui/*"],
-      "wrappers": ["src/wrappers"],
-      "wrappers/*": ["src/wrappers/*"]
+      "@fixtures": ["./@fixtures"],
+      "@fixtures/*": ["./@fixtures/*"],
+      "@types": ["./@types"],
+      "@types/*": ["./@types/*"],
+      "modules": ["./modules"],
+      "modules/*": ["./modules/*"],
+      "layouts": ["./layouts"],
+      "layouts/*": ["./layouts/*"],
+      "services": ["./services"],
+      "services/*": ["./services/*"],
+      "constants/*": ["./constants/*"],
+      "configs": ["./configs"],
+      "configs/*": ["./configs/*"],
+      "ui": ["./ui"],
+      "ui/*": ["./ui/*"],
+      "wrappers": ["./wrappers"],
+      "wrappers/*": ["./wrappers/*"]
     }
   }
 }

@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render HeaderComponent 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="makeStyles-root-1"
+      >
+        <div
+          class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+                href="https://www.livus.com.br/"
+              >
+                <svg
+                  fill="none"
+                  height="28"
+                  viewBox="0 0 79 28"
+                  width="79"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.6965 23.8884H3.59927V4.79987H0V27.2678H15.0702L13.6965 23.8884Z"
+                    fill="#FFFDFB"
+                  />
+                  <path
+                    d="M14.2675 9.11115H10.8125V18.7481H14.2675V9.11115Z"
+                    fill="#FFFDFB"
+                  />
+                  <path
+                    d="M42.1832 14.9496C42.1832 17.6628 42.4511 19.9089 45.6725 19.9089C48.894 19.9089 49.1619 17.6628 49.1619 14.9496V9.11112H52.6169V15.2725C52.6169 20.4996 50.2815 23.151 45.6725 23.151C41.1322 23.151 38.7281 20.3004 38.7281 14.9015V7.07794H42.1832V14.9496Z"
+                    fill="#FFFDFB"
+                  />
+                  <path
+                    d="M26.6622 20.6163L21.9296 10.8694L21.8472 10.7045H17.925L25.1167 25.2802H28.2008L35.3581 10.7045H31.4841L26.6622 20.6163Z"
+                    fill="#FFFDFB"
+                  />
+                  <path
+                    d="M12.5379 0.799805C10.8138 0.799805 10.2094 1.84387 10.2094 3.12834C10.2094 4.41281 10.8069 5.45687 12.5379 5.45687C14.2688 5.45687 14.8664 4.41281 14.8664 3.12834C14.8664 1.84387 14.2688 0.799805 12.5379 0.799805Z"
+                    fill="#FFFDFB"
+                  />
+                  <path
+                    d="M63.7014 16.4953C61.4965 15.5749 59.9854 15.0529 59.9854 13.844C59.9854 12.951 60.9195 12.2779 61.7575 12.2779C62.6848 12.2779 63.4335 13.0472 63.7701 13.8165L63.9006 14.105L66.8267 12.5801L66.7168 12.3259C65.8857 10.3889 63.9349 9.03577 61.9773 9.03577C58.955 9.03577 56.6746 11.2063 56.6746 14.0912C56.6746 17.1616 59.0375 18.1507 61.1324 19.0231C62.8084 19.7237 64.2578 20.3281 64.2578 21.8461C64.2578 23.1856 63.2618 24.1197 61.8331 24.1197C60.1433 24.1197 59.3946 23.1993 58.6734 21.6126L58.5566 21.3447L55.5 22.6361L55.5893 22.8971C56.5303 25.6858 58.852 27.3549 61.8056 27.3549C65.1645 27.3549 67.7884 24.8203 67.7884 21.592C67.7746 18.6453 65.7964 17.3745 63.7014 16.4953Z"
+                    fill="#FFFDFB"
+                  />
+                  <path
+                    d="M73.6625 0.795532C70.1404 0.795532 68.925 2.92038 68.925 5.53303C68.925 8.14568 70.1486 10.2788 73.6625 10.2788C77.1763 10.2788 78.4 8.14568 78.4 5.53303C78.4 2.92038 77.1763 0.795532 73.6625 0.795532Z"
+                    fill="#509CF3"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+            />
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-2 MuiTypography-colorPrimary"
+                  href="https://app.livus.com.br/#/waitlist"
+                >
+                  Entrar
+                </a>
+              </p>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
+              >
+                <a
+                  class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-2 MuiTypography-colorPrimary"
+                  href="https://app.livus.com.br/#/waitlist"
+                >
+                  Seja um Anfitrião
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="makeStyles-root-1"
+    >
+      <div
+        class="MuiContainer-root MuiContainer-fixed MuiContainer-maxWidthLg"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+          >
+            <a
+              class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+              href="https://www.livus.com.br/"
+            >
+              <svg
+                fill="none"
+                height="28"
+                viewBox="0 0 79 28"
+                width="79"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.6965 23.8884H3.59927V4.79987H0V27.2678H15.0702L13.6965 23.8884Z"
+                  fill="#FFFDFB"
+                />
+                <path
+                  d="M14.2675 9.11115H10.8125V18.7481H14.2675V9.11115Z"
+                  fill="#FFFDFB"
+                />
+                <path
+                  d="M42.1832 14.9496C42.1832 17.6628 42.4511 19.9089 45.6725 19.9089C48.894 19.9089 49.1619 17.6628 49.1619 14.9496V9.11112H52.6169V15.2725C52.6169 20.4996 50.2815 23.151 45.6725 23.151C41.1322 23.151 38.7281 20.3004 38.7281 14.9015V7.07794H42.1832V14.9496Z"
+                  fill="#FFFDFB"
+                />
+                <path
+                  d="M26.6622 20.6163L21.9296 10.8694L21.8472 10.7045H17.925L25.1167 25.2802H28.2008L35.3581 10.7045H31.4841L26.6622 20.6163Z"
+                  fill="#FFFDFB"
+                />
+                <path
+                  d="M12.5379 0.799805C10.8138 0.799805 10.2094 1.84387 10.2094 3.12834C10.2094 4.41281 10.8069 5.45687 12.5379 5.45687C14.2688 5.45687 14.8664 4.41281 14.8664 3.12834C14.8664 1.84387 14.2688 0.799805 12.5379 0.799805Z"
+                  fill="#FFFDFB"
+                />
+                <path
+                  d="M63.7014 16.4953C61.4965 15.5749 59.9854 15.0529 59.9854 13.844C59.9854 12.951 60.9195 12.2779 61.7575 12.2779C62.6848 12.2779 63.4335 13.0472 63.7701 13.8165L63.9006 14.105L66.8267 12.5801L66.7168 12.3259C65.8857 10.3889 63.9349 9.03577 61.9773 9.03577C58.955 9.03577 56.6746 11.2063 56.6746 14.0912C56.6746 17.1616 59.0375 18.1507 61.1324 19.0231C62.8084 19.7237 64.2578 20.3281 64.2578 21.8461C64.2578 23.1856 63.2618 24.1197 61.8331 24.1197C60.1433 24.1197 59.3946 23.1993 58.6734 21.6126L58.5566 21.3447L55.5 22.6361L55.5893 22.8971C56.5303 25.6858 58.852 27.3549 61.8056 27.3549C65.1645 27.3549 67.7884 24.8203 67.7884 21.592C67.7746 18.6453 65.7964 17.3745 63.7014 16.4953Z"
+                  fill="#FFFDFB"
+                />
+                <path
+                  d="M73.6625 0.795532C70.1404 0.795532 68.925 2.92038 68.925 5.53303C68.925 8.14568 70.1486 10.2788 73.6625 10.2788C77.1763 10.2788 78.4 8.14568 78.4 5.53303C78.4 2.92038 77.1763 0.795532 73.6625 0.795532Z"
+                  fill="#509CF3"
+                />
+              </svg>
+            </a>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-8"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-2 MuiTypography-colorPrimary"
+                href="https://app.livus.com.br/#/waitlist"
+              >
+                Entrar
+              </a>
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-link-2 MuiTypography-colorPrimary"
+                href="https://app.livus.com.br/#/waitlist"
+              >
+                Seja um Anfitrião
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

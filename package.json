@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --fix",
     "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "test": "node --expose-gc ./node_modules/.bin/jest --maxWorkers=50% --logHeapUsage --no-cache -c jest.config.js",
     "test:integration": "node --expose-gc ./node_modules/.bin/jest --maxWorkers=50% --logHeapUsage --no-cache -c jest.config.integration.js",
@@ -14,8 +14,16 @@
     "cypress:open": "TZ=UTC cypress open",
     "cypress:run": "TZ=UTC cypress run"
   },
+  "lint-staged": {
+    "./src/**/*.{ts,js,jsx,tsx}": [
+      "yarn lint",
+      "yarn format",
+      "yarn test -u"
+    ]
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
+    "@material-ui/lab": "^4.0.0-alpha.58",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -32,12 +40,12 @@
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "husky": "^7.0.0",
     "jest": "^27.0.6",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.3",
-    "typescript": "^4.3.5",
-    "eslint-plugin-prettier": "^3.4.0"
+    "typescript": "^4.3.5"
   }
 }
