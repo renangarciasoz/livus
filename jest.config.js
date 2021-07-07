@@ -1,5 +1,9 @@
 module.exports = {
-  setupFilesAfterEnv: ['@testing-library/jest-dom', '<rootDir>/jest.setup.js'],
+  setupFilesAfterEnv: [
+    '@testing-library/jest-dom',
+    '<rootDir>/jest.setup.js',
+    '<rootDir>/src/setupTests.js',
+  ],
   coverageThreshold: {
     global: {
       branches: 20,

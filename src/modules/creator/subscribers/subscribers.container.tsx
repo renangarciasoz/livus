@@ -12,12 +12,14 @@ export const Subscribers = () => {
   );
 
   const handleChange = (_: React.ChangeEvent<unknown>, value: number) => {
-    router.push(`${URL_SUBSCRIBERS}/${value}`);
+    router.push(`${URL_SUBSCRIBERS}/${value}`, undefined, {
+      shallow: true,
+    });
   };
 
   return (
     <SubscribersComponent
-      subscribers={data?.creator?.subscribers || []}
+      subscribers={data?.creator.subscribers || []}
       currentPage={currentPage}
       handleChange={handleChange}
     />

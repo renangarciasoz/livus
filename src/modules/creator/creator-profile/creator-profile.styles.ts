@@ -10,10 +10,12 @@ export const useStyles = makeStyles(({ palette, spacing }) => ({
     height: '400px',
     paddingTop: spacing(5),
     alignItems: 'flex-end',
-    backgroundImage: (props: Props) => `url(${props.cover})`,
+    backgroundImage: (props: Props) =>
+      `linear-gradient(180deg, rgba(26, 26, 26, 0) 0%, rgba(26, 26, 26, 0.7) 100%), url(${props.cover})`,
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
+    backgroundBlendMode: 'multiply, normal',
     flex: 1,
   },
   photo: {

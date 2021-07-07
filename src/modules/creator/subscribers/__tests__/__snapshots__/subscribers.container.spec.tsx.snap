@@ -16,7 +16,6 @@ Object {
           >
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
-              style="padding: 32px 0px;"
             >
               <div
                 class="MuiTableContainer-root"
@@ -46,7 +45,178 @@ Object {
                   </thead>
                   <tbody
                     class="MuiTableBody-root"
-                  />
+                  >
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Rodrigo Pereira
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          13/04/2021
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 1
+                        </h6>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Mariana Dias
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          02/02/2021
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 2
+                        </h6>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Érica Rocha do Nascimento Albuquerque de Oliveira e Souza
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          01/05/2021
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 3
+                        </h6>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Antonio Rodrigues
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          02/02/2021
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 3
+                        </h6>
+                      </td>
+                    </tr>
+                    <tr
+                      class="MuiTableRow-root"
+                    >
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Tiago Santos
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          11/06/2020
+                        </h6>
+                      </td>
+                      <td
+                        class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-h6"
+                          style="font-weight: 400;"
+                        >
+                          Plano 2
+                        </h6>
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
               <nav
@@ -103,7 +273,6 @@ Object {
         >
           <div
             class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
-            style="padding: 32px 0px;"
           >
             <div
               class="MuiTableContainer-root"
@@ -133,7 +302,178 @@ Object {
                 </thead>
                 <tbody
                   class="MuiTableBody-root"
-                />
+                >
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Rodrigo Pereira
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        13/04/2021
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 1
+                      </h6>
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Mariana Dias
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        02/02/2021
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 2
+                      </h6>
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Érica Rocha do Nascimento Albuquerque de Oliveira e Souza
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        01/05/2021
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 3
+                      </h6>
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Antonio Rodrigues
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        02/02/2021
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 3
+                      </h6>
+                    </td>
+                  </tr>
+                  <tr
+                    class="MuiTableRow-root"
+                  >
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body makeStyles-tableNameCell-3 MuiTableCell-alignLeft"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Tiago Santos
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        11/06/2020
+                      </h6>
+                    </td>
+                    <td
+                      class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                    >
+                      <h6
+                        class="MuiTypography-root MuiTypography-h6"
+                        style="font-weight: 400;"
+                      >
+                        Plano 2
+                      </h6>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </div>
             <nav
